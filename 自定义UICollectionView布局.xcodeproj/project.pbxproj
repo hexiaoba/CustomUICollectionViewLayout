@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		96A642151B3B906B0042323C /* NNStackLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 96A642141B3B906B0042323C /* NNStackLayout.m */; };
+		96A642181B3BA0BD0042323C /* NNCircleLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 96A642171B3BA0BD0042323C /* NNCircleLayout.m */; };
 		96DFEF021B3A769B002B648E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 96DFEF011B3A769B002B648E /* main.m */; };
 		96DFEF051B3A769B002B648E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 96DFEF041B3A769B002B648E /* AppDelegate.m */; };
 		96DFEF081B3A769B002B648E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96DFEF071B3A769B002B648E /* ViewController.m */; };
@@ -14,6 +16,9 @@
 		96DFEF0D1B3A769B002B648E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96DFEF0C1B3A769B002B648E /* Images.xcassets */; };
 		96DFEF101B3A769B002B648E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 96DFEF0E1B3A769B002B648E /* LaunchScreen.xib */; };
 		96DFEF1C1B3A769B002B648E /* ___UICollectionView__Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 96DFEF1B1B3A769B002B648E /* ___UICollectionView__Tests.m */; };
+		96DFEF281B3A7D8D002B648E /* NNImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 96DFEF261B3A7D8D002B648E /* NNImageCell.m */; };
+		96DFEF291B3A7D8D002B648E /* NNImageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 96DFEF271B3A7D8D002B648E /* NNImageCell.xib */; };
+		96DFEF2C1B3A8122002B648E /* NNLineLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 96DFEF2B1B3A8122002B648E /* NNLineLayout.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +32,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		96A642131B3B906B0042323C /* NNStackLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NNStackLayout.h; sourceTree = "<group>"; };
+		96A642141B3B906B0042323C /* NNStackLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NNStackLayout.m; sourceTree = "<group>"; };
+		96A642161B3BA0BD0042323C /* NNCircleLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NNCircleLayout.h; sourceTree = "<group>"; };
+		96A642171B3BA0BD0042323C /* NNCircleLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NNCircleLayout.m; sourceTree = "<group>"; };
 		96DFEEFC1B3A769B002B648E /* 自定义UICollectionView布局.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "自定义UICollectionView布局.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		96DFEF001B3A769B002B648E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		96DFEF011B3A769B002B648E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +49,11 @@
 		96DFEF151B3A769B002B648E /* 自定义UICollectionView布局Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "自定义UICollectionView布局Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		96DFEF1A1B3A769B002B648E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		96DFEF1B1B3A769B002B648E /* ___UICollectionView__Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "___UICollectionView__Tests.m"; sourceTree = "<group>"; };
+		96DFEF251B3A7D8D002B648E /* NNImageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NNImageCell.h; sourceTree = "<group>"; };
+		96DFEF261B3A7D8D002B648E /* NNImageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NNImageCell.m; sourceTree = "<group>"; };
+		96DFEF271B3A7D8D002B648E /* NNImageCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NNImageCell.xib; sourceTree = "<group>"; };
+		96DFEF2A1B3A8122002B648E /* NNLineLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NNLineLayout.h; sourceTree = "<group>"; };
+		96DFEF2B1B3A8122002B648E /* NNLineLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NNLineLayout.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,10 +99,19 @@
 				96DFEF041B3A769B002B648E /* AppDelegate.m */,
 				96DFEF061B3A769B002B648E /* ViewController.h */,
 				96DFEF071B3A769B002B648E /* ViewController.m */,
+				96DFEF251B3A7D8D002B648E /* NNImageCell.h */,
+				96DFEF261B3A7D8D002B648E /* NNImageCell.m */,
+				96DFEF271B3A7D8D002B648E /* NNImageCell.xib */,
 				96DFEF091B3A769B002B648E /* Main.storyboard */,
 				96DFEF0C1B3A769B002B648E /* Images.xcassets */,
 				96DFEF0E1B3A769B002B648E /* LaunchScreen.xib */,
 				96DFEEFF1B3A769B002B648E /* Supporting Files */,
+				96DFEF2A1B3A8122002B648E /* NNLineLayout.h */,
+				96DFEF2B1B3A8122002B648E /* NNLineLayout.m */,
+				96A642131B3B906B0042323C /* NNStackLayout.h */,
+				96A642141B3B906B0042323C /* NNStackLayout.m */,
+				96A642161B3BA0BD0042323C /* NNCircleLayout.h */,
+				96A642171B3BA0BD0042323C /* NNCircleLayout.m */,
 			);
 			path = "自定义UICollectionView布局";
 			sourceTree = "<group>";
@@ -202,6 +225,7 @@
 				96DFEF0B1B3A769B002B648E /* Main.storyboard in Resources */,
 				96DFEF101B3A769B002B648E /* LaunchScreen.xib in Resources */,
 				96DFEF0D1B3A769B002B648E /* Images.xcassets in Resources */,
+				96DFEF291B3A7D8D002B648E /* NNImageCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -222,6 +246,10 @@
 				96DFEF081B3A769B002B648E /* ViewController.m in Sources */,
 				96DFEF051B3A769B002B648E /* AppDelegate.m in Sources */,
 				96DFEF021B3A769B002B648E /* main.m in Sources */,
+				96A642181B3BA0BD0042323C /* NNCircleLayout.m in Sources */,
+				96A642151B3B906B0042323C /* NNStackLayout.m in Sources */,
+				96DFEF2C1B3A8122002B648E /* NNLineLayout.m in Sources */,
+				96DFEF281B3A7D8D002B648E /* NNImageCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,6 +444,7 @@
 				96DFEF211B3A769B002B648E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		96DFEF221B3A769B002B648E /* Build configuration list for PBXNativeTarget "自定义UICollectionView布局Tests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +453,7 @@
 				96DFEF241B3A769B002B648E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
